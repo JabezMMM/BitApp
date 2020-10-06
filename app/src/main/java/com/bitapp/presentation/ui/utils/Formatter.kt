@@ -43,7 +43,7 @@ object Formatter {
         }
 
         val varargsArray: Array<Any> = Array(subStringList.size) {}
-        subStringList.toArray()?.copyInto(varargsArray)
+        subStringList.toArray().copyInto(varargsArray)
 
         val formattedString = SpannableStringBuilder(String.format(mainString, *varargsArray))
 

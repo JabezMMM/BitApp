@@ -40,7 +40,6 @@ class TradesAdapter : ListAdapter<Trade, TradesAdapter.OrderBookViewHolder>(Diff
             val decimalFormat = DecimalFormat(view.context.getString(R.string.number_format))
 
             val calendar = Calendar.getInstance()
-            val date  =  calendar.time
             calendar.timeInMillis = calendar.timeInMillis - order.time.toLong()
             time.text = DateFormat.format("hh:mm:ss", calendar.time) as String
 
