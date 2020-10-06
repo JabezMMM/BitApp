@@ -24,4 +24,6 @@
 - Timber
 
 ##### Screenshots:
-<img alt="NY Times Most Popular Articles" height="450px" src="https://github.com/JabezMMM/NY-Times-Most-Popular-Articles/blob/master/art/screen.png" />
+<img alt="NY Times Most Popular Articles" height="450px" src="https://github.com/JabezMMM/BitApp/blob/main/art/Screenshot_20201007-003018_BitApp.jpg" />
+<img alt="NY Times Most Popular Articles" height="450px" src="https://github.com/JabezMMM/BitApp/blob/main/art/Screenshot_20201007-003045_BitApp.jpg" />
+<img alt="NY Times Most Popular Articles" height="450px" src="https://github.com/JabezMMM/BitApp/blob/main/art/Screenshot_20201007-003119_BitApp.jpg" />
