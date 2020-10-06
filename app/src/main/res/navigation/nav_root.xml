@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_root"
+    app:startDestination="@id/bitListFragment">
+
+    <fragment
+        android:id="@+id/bitListFragment"
+        android:name="com.bitapp.presentation.ui.fragment.BitListFragment"
+        android:label="BitListFragment"
+        tools:layout="@layout/fragment_bit_list">
+        <action
+            android:id="@+id/action_List_To_Details"
+            app:destination="@id/bitDetailFragment" />
+        <action
+            android:id="@+id/action_open_currencyList"
+            app:destination="@id/currencyListDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/bitDetailFragment"
+        android:name="com.bitapp.presentation.ui.fragment.BitDetailFragment"
+        android:label="BitDetailFragment"
+        tools:layout="@layout/fragment_bit_detail">
+        <argument
+            android:name="tradingPair"
+            app:argType="string"
+            app:nullable="false" />
+    </fragment>
+    <dialog
+        android:id="@+id/currencyListDialog"
+        android:name="com.bitapp.presentation.ui.fragment.CurrencyListDialog"
+        android:label="CurrencyListDialog"
+        tools:layout="@layout/dialog_currency_list" />
+</navigation>

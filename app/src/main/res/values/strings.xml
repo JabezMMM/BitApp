@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BitApp</string>
+
+    <string name="trades_title">Trades</string>
+
+    <string name="order_book_title">"Order Book</string>
+    <string name="bid_label">"Bid</string>
+    <string name="ask_label">"Ask</string>
+    <string name="total_label">Total</string>
+    <string name="price_label">Price</string>
+
+    <string name="currency">Currency</string>
+    <string name="choose_a_currency">Choose a currency</string>
+
+    <string name="number_format">#,###.##</string>
+    <string name="ticker_format">%1$s: %2$s</string>
+
+    <string name="last_price">Latest</string>
+    <string name="volume">VOL</string>
+    <string name="low">LOW</string>
+    <string name="high">HIGH</string>
+    <string name="change">Change</string>
+    <string name="amount">Amount</string>
+    <string name="time_label">Time</string>
+</resources>
